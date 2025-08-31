@@ -33,9 +33,6 @@ LaMorada/
 │
 └── docker-compose.yml
 
-yaml
-Copiar código
-
 ---
 
 ## ⚙️ Configuración
