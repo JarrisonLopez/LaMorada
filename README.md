@@ -125,10 +125,3 @@ Copia cada bloque en su carpeta correspondiente (backend y frontend/web).
 Renómbralo a .env (ejemplo: cp .env.example .env).
 
 Edita los valores según tu entorno (por ejemplo, JWT_SECRET con una cadena segura, o las credenciales reales de tu DB).
-
-
-
-
-
-
-Preguntar a ChatGPT
