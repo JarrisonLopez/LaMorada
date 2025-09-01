@@ -52,30 +52,22 @@ DB_PASS=postgres
 DB_NAME=lamorada
 2. Instalar dependencias
 Backend:
-
-bash
-Copiar código
 cd backend
 npm install
-Frontend:
 
-bash
-Copiar código
+Frontend:
 cd frontend/web
 npm install
+
 3. Ejecutar en local
 Backend (NestJS):
-
-bash
-Copiar código
 cd backend
 npm run start:dev
-Frontend (Angular):
 
-bash
-Copiar código
+Frontend (Angular):
 cd frontend/web
 ng serve --open
+
 🧪 Endpoints principales
 POST /auth/register → Crear usuario
 
@@ -83,8 +75,6 @@ POST /auth/login → Iniciar sesión y recibir token
 
 Ejemplo:
 
-bash
-Copiar código
 curl -X POST http://localhost:3000/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email":"ana@example.com","password":"123456"}'
